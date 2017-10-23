@@ -1,39 +1,74 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
         
         <title>Kelemen Lorand</title>
-<meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' name='viewport' />
+        <meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' name='viewport' />
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <!-- JAVASCRIPT STUFF GOES HERE -->
         <script type="text/javascript">
             $(function() {
                 
                 setTimeout(function() {
                     $('.fly-in-text').removeClass('hidden');
-                }, 500);
+                }, 100);
                 
-            })();
+            });
             
 
              
+</script>
+    <script>
+    window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550) {
+        document.getElementById("topBtn").style.display = "block";
+    } else {
+        document.getElementById("topBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+}    
+</script>
+        <script>
+        window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+;
         </script>
+        
+        
     </head>
     <body>
+      <button onclick="topFunction()" id="topBtn" title="Go to top">Back to Top</button>
         
-<div class="background-wrap">
-       <video   id="video-bg-elem" preload="auto" autoplay="true" loop="loop" >
+<div class="container-whole">
+   <div class="video-container"> 
+    <video   id="video-bg-elem" preload="auto" autoplay="true" loop="loop">
             <source src="universe.mp4" type="video/mp4" >
             </video>
-     <!-- FACEBOOK BUTTONS -----------------------------> 
-        <a href="#" class="fa fa-facebook"></a>
+     <!-- FACEBOOK BUTTONS ---& MENU BUTTONS-------------------------->
+       
+       
+       <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-google"></a>
         <a href="#" class="fa fa-linkedin"></a>
         <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="btn mybtn1">ABOUT ME</a>
+        <a href="#" class="btn mybtn2">FUTURE PROJECTS</a>
+        <a href="#" class="btn mybtn3">WEATHER IN MADAGASCAR</a>
 
+       
+       
         <ul class="fly-in-text hidden">
             <li>K</li>       
             <li>E</li>       
@@ -50,87 +85,64 @@
             <li>N</li>       
             <li>D</li>       
         </ul>
- 
-        <div id="box1">       
-            <p1>SZOPOL-E BORERT?</p1> 
-        </div>
-    <div class="section1">
-        <p2>CSA ZSIKE!</p2> 
-    </div>
-        <div id="box2">
-            <h1>M U C H  W O W !  !  !</h1>
-        </div>
-    <div id="section2">
-             <p3>THIS IS ANOTHER RANDOM PARAGARAPH!</p3>
-    </div>
-</div>       
-    </body>
-=======
-<!DOCTYPE html>
-<html>
-    <head>
-        
-        <title>Kelemen Lorand</title>
-<meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' name='viewport' />
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script type="text/javascript">
-            $(function() {
-                
-                setTimeout(function() {
-                    $('.fly-in-text').removeClass('hidden');
-                }, 500);
-                
-            })();
-            
 
-             
-        </script>
-    </head>
-    <body>
-        
-<div class="background-wrap">
-       <video   id="video-bg-elem" preload="auto" autoplay="true" loop="loop" >
-            <source src="universe.mp4" type="video/mp4" >
-            </video>
-     <!-- FACEBOOK BUTTONS -----------------------------> 
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-google"></a>
-        <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-youtube"></a>
+    <div class="container">
 
-        <ul class="fly-in-text hidden">
-            <li>K</li>       
-            <li>E</li>       
-            <li>L</li>       
-            <li>E</li>       
-            <li>M</li>       
-            <li>E</li>       
-            <li>N</li>       
-            <li> </li>       
-            <li>L</li>       
-            <li>O</li>       
-            <li>R</li>       
-            <li>A</li>       
-            <li>N</li>       
-            <li>D</li>       
-        </ul>
- 
-        <div id="box1">       
-            <p1>SZOPOL-E BORERT?</p1> 
-        </div>
-    <div class="section1">
-        <p2>CSA ZSIKE!</p2> 
+
+    
+        <section id="section1">  
+            <br/> <br/> <br/> <br/> <br/> <br/> <br/> 
+            <h1 align="center">FIRST SECTION</h1>
+            <p5 align="justify">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo enim quidem tempora deserunt nostrum voluptate labore repellat quisquam quasi cum suscipit dolore ab consequuntur, ad porro earum temporibus. Laborum ad temporibus ex, omnis!
+</p5> 
+           
+        </section>
+    
+    
+    <div class="pimg2">
+    <div class="ptext">
+      <p2> PARALLAX  STUFF</p2>
     </div>
-        <div id="box2">
-            <h1>M U C H  W O W !  !  !</h1>
-        </div>
-    <div id="section2">
-             <p3>THIS IS ANOTHER RANDOM PARAGARAPH!</p3>
+  </div>
+
+    <section id="section2">
+                    <h1 align="center">Section two</h1>
+
+        <p5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo enim quidem tempora deserunt nostrum voluptate labore repellat quisquam quasi cum suscipit dolore ab consequuntur, ad porro earum temporibus. Laborum ad temporibus ex, omnis!
+</p5> 
+    </section>
+    
+    <div class="pimg3">
+    <div class="ptext">
+       <p3> C O O L &#160&#160&#160I M A G E</p3>
     </div>
-</div>       
-    </body>
->>>>>>> 0a348d0d96faf20ad504683cdb60043191c1a26b
+  </div>
+    
+        <section id="section3">
+                        <h1 align="center">Section three</h1>
+
+            <p5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo enim quidem tempora deserunt nostrum voluptate labore repellat quisquam quasi cum suscipit dolore ab consequuntur, ad porro earum temporibus. Laborum ad temporibus ex, omnis!</p5>
+        </section>
+    
+    <div class="pimg4">
+    <div class="ptext">
+       <p4>ANOTHER COOL IMAGE </p4>
+    </div>
+  </div>
+
+    <section id="section4">
+                    <h1 align="center">Section four</h1>
+
+             <p5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo enim quidem tempora deserunt nostrum voluptate labore repellat quisquam quasi cum suscipit dolore ab consequuntur, ad porro earum temporibus. Laborum ad temporibus ex, omnis!</p5>
+          </section>
+            </div>
+        </div>
+         <footer>
+   
+       2017 &copy; KELEMEN LORAND
+        </footer>
+        </div>
+
+        </body>
 </html>
