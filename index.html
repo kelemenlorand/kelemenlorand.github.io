@@ -23,6 +23,19 @@
 
              
 </script>
+        <script>
+        var docWidth = document.documentElement.offsetWidth;
+
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+    }
+  }
+);
+        </script>
+        
     <script>
     window.onscroll = function() {scrollFunction()};
 
@@ -33,6 +46,8 @@ function scrollFunction() {
         document.getElementById("topBtn").style.display = "none";
     }
 }
+        </script>
+        <script>
 
 // When the user clicks on the button, scroll to the top of the document
 
@@ -48,12 +63,14 @@ function scrollFunction() {
 ;
         </script>
         
-        
-    </head>
+         </head>
+    
+    
+    
     <body>
-      <button onclick="topFunction()" id="topBtn" title="Go to top">Back to Top</button>
-        
+    
 <div class="container-whole">
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Back to Top</button>
    <div class="video-container"> 
     <video   id="video-bg-elem" preload="auto" autoplay="true" loop="loop">
             <source src="universe.mp4" type="video/mp4" >
@@ -71,7 +88,6 @@ function scrollFunction() {
         <a href="#" class="btn mybtn3">WEATHER IN MADAGASCAR</a>
 
        
-       
         <ul class="fly-in-text hidden">
             <li>K</li>       
             <li>E</li>       
@@ -80,7 +96,7 @@ function scrollFunction() {
             <li>M</li>       
             <li>E</li>       
             <li>N</li>       
-            <li> </li>       
+                
             <li>L</li>       
             <li>O</li>       
             <li>R</li>       
@@ -88,7 +104,8 @@ function scrollFunction() {
             <li>N</li>       
             <li>D</li>       
         </ul>
-
+       
+</div>
     <div class="container">
 
 
@@ -140,7 +157,7 @@ function scrollFunction() {
              <p5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo enim quidem tempora deserunt nostrum voluptate labore repellat quisquam quasi cum suscipit dolore ab consequuntur, ad porro earum temporibus. Laborum ad temporibus ex, omnis!</p5>
           </section>
             </div>
-        </div>
+        
     <div>   
     <footer>
    

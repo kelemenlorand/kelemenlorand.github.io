@@ -1,9 +1,18 @@
+
+
 body {
  margin-top: 0px;
  margin-right: 0px;
  margin-bottom: 0px;
- margin-left: 0px
+ margin-left: 0px;
+    
 }
+
+.container-whole{
+       margin:0 auto;
+   
+}
+
 video{
     width: 100%;
     height: 100%;
@@ -14,7 +23,6 @@ video{
     color:black;
     font-size: 25px;
     letter-spacing: 3px;
-    text-shadow: 4px;   
 }
 
 h1{
@@ -166,31 +174,34 @@ position: absolute;
     background: #6480ad;
     color: black;
 }
+
 .fly-in-text {
-                display: inline-block;
+    
+                display: inline;
                 list-style: none;            
                 position: absolute;
-                left: 50%;
-                top: 990px;
-                transform: translateX(-50%) translateY(-320px);
+                left:50%;
+                top:60%;
+                transform: translateX(-50%) translateY(-50%);
                
-            }
+          
+}
 .fly-in-text li {
                 display: inline-block;
                 margin-right: 2px;
                 font-family: arial;
-                font-weight: 9px;
+                font-weight: 5px;
                 font-size: 12px;
-                letter-spacing: 33px;
+                letter-spacing: 23px;
                 color: #fff;
                 opacity: 0.7;
-                transition: all 2.5s ease;
+                transition: all 3.5s ease;
             }
 .fly-in-text li:last-child {
                 margin-right: 0;
             }
 .fly-in-text li:nth-child(7){
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .fly-in-text.hidden li {
 opacity: 0;            
@@ -200,22 +211,19 @@ opacity: 0;
             .fly-in-text.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
             .fly-in-text.hidden li:nth-child(4) { transform: translateX(0px) translateY(800px); }
             .fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
-            .fly-in-text.hidden li:nth-child(6) { transform: translateX(20px) translateY(-20px); }
-            .fly-in-text.hidden li:nth-child(7) { transform: translateX(303px) translateY(200px); }            
-            .fly-in-text.hidden li:nth-child(9) { transform: translateX(400px) translateY(440px); }  
-            .fly-in-text.hidden li:nth-child(10) { transform: translateX(800px) translateY(-440px); }
-            .fly-in-text.hidden li:nth-child(11){
-            transform: translateX(-900px)
-                translateY(1110px)}
-            .fly-in-text.hidden li:nth-child(12){
-            transform: translateX(-400px)
-                translateY(-910px)}
-            .fly-in-text.hidden li:nth-child(13) { transform: translateX(800px) translateY(-440px); }
-            .fly-in-text.hidden li:nth-child(14){
-            transform: translateX(900px)
-                translateY(0px)}
+            .fly-in-text.hidden li:nth-child(6) { transform: translateX(-380px) translateY(270px); }                         .fly-in-text.hidden li:nth-child(7) { transform: translateX(-320px) translateY(240px); }
 
-            
+            .fly-in-text.hidden li:nth-child(8) { transform: translateX(-600px) translateY(0px); }
+            .fly-in-text.hidden li:nth-child(9) { transform: translateX(200px) translateY(510px); }
+            .fly-in-text.hidden li:nth-child(10) { transform: translateX(-150px) translateY(-80px); }
+            .fly-in-text.hidden li:nth-child(11) { transform: translateX(0px) translateY(800px); }
+            .fly-in-text.hidden li:nth-child(12) { transform: translateX(-300px) translateY(200px); }
+            .fly-in-text.hidden li:nth-child(13) { transform: translateX(-380px) translateY(270px); }         
+           
+
+
+
+
 .pmg1,.pimg2,.pimg3,.pimg4 {
     position: relative;
     background-position: center;
@@ -241,18 +249,18 @@ opacity: 0;
 
 .pimg2 {
 background-image: url(img/city1.jpg);
-min-height: 400px;
+min-height: 500px;
 border-radius: 15px;
 
 }
 .pimg3 {
 background-image: url(img/city2.jpg);
-min-height: 400px;
+min-height: 500px;
 border-radius: 15px;
 }
 .pimg4 {
 background-image: url(img/city3.jpg);
-min-height: 400px;
+min-height: 500px;
 border-radius: 15px;
     background-size: cover;
 }
