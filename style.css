@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 video{
 width: 100%;
@@ -156,4 +157,164 @@ p2{
     background-image: url(bivol.jpeg);
     background-size: cover;
     opacity: 0.7;
+=======
+
+video{
+width: 100%;
+height:100%;
+position: relative;
+z-index: 0;
+    opacity: o.7;
+}
+
+
+
+* {
+                margin: 0;
+                padding: 0;
+}
+
+.background-wrap{
+    min-width: 100%;
+    min-height: 100%;
+}
+body {
+                background-color: whitesmoke;
+            }
+
+fa.{
+    padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    position: absolute;
+    left:45%;
+    top:80%;
+    background: #3B5998;
+    color: white;
+
+}
+.fa-twitter {
+    position: absolute;
+    left:47%;
+    top:80%;
+    background: #3B5998;
+  color: white;
+}
+.fa-google {
+    position: absolute;
+    left:49%;
+    top:80%;
+    background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+    position: absolute;
+    left:51%;
+    top:80%;
+    background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+    position: absolute;
+    left:53%;
+    top:80%;
+    background: #3B5998;
+  color: white;
+}
+.fly-in-text {
+                display: inline-block;
+                list-style: none;            
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+               
+            }
+.fly-in-text li {
+                display: inline-block;
+                margin-right: 50px;
+                font-family: impact;
+                font-weight: 500;
+                font-size: 10vh;
+                color: #fff;
+                opacity: 1;
+                transition: all 2.5s ease;
+            }
+.fly-in-text li:last-child {
+                margin-right: 0;
+            }
+.fly-in-text.hidden li {
+opacity: 0;            
+}
+            .fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
+            .fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px); }
+            .fly-in-text.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
+            .fly-in-text.hidden li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
+            .fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
+            .fly-in-text.hidden li:nth-child(6) { transform: translateX(20px) translateY(-20px); }
+            .fly-in-text.hidden li:nth-child(7) { transform: translateX(30px) translateY(200px); }            
+            .fly-in-text.hidden li:nth-child(9) { transform: translateX(400px) translateY(440px); }  
+            .fly-in-text.hidden li:nth-child(10) { transform: translateX(800px) translateY(-440px); }
+            
+              
+.box1{
+    width: 95%;
+    height: 200px;
+    background-color: floralwhite;
+}
+
+.section1 {
+    color:#fff;
+    margin-top: 0;
+    border:2px;
+    border-style: solid;
+    border-color: darkgray;
+    padding:0;
+}
+
+.section2{
+    color:#ddd;
+    margin-top: 0;
+    border:2px;
+    border-style: solid;
+    border-color: darkgray;
+    padding:0;
+}
+p3{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+}
+p1{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+p2{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#box1{
+    min-height: 90vh;
+    background-image: url(bivol.jpeg);
+    background-size: cover;
+    opacity: 0.7;
+>>>>>>> 0a348d0d96faf20ad504683cdb60043191c1a26b
 }
